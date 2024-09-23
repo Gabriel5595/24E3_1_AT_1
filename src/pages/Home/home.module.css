@@ -1,0 +1,44 @@
+/* App.module.css */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menuItems a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.userIcon img {
+    max-height: 30px;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        padding: 15px 40px;
+    }
+
+    .menuItems {
+        gap: 40px;
+    }
+}
